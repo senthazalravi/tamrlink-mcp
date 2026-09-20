@@ -1,0 +1,20 @@
+{
+  "name": "tamrlink-mcp",
+  "version": "0.1.0",
+  "description": "TamrLink MCP server — B2B dates marketplace (RFQ, matching, offers, orders)",
+  "type": "module",
+  "bin": {
+    "tamrlink-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "zod": "^3.24.2"
+  }
+}
